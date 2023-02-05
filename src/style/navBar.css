@@ -1,0 +1,165 @@
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    color: white;
+    padding: 2% 0%;
+    top: 0;
+    z-index: 99;
+    transition: 0.5s;
+}
+
+.onScroll{
+    transition: 0.5s;
+    padding: 1% 0%;
+    background-color: #AC4B1C;
+}
+
+.titleNav{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.titleNav h1{
+    font-size: 2.5em;
+    color: white;
+}
+
+.menuNav{
+    width: 40%;
+    margin-right: 7%;
+}
+
+.menuNav ul{
+    display: flex;
+}
+
+.menuNav ul li{
+    display: inline;
+    text-align: center;
+}
+
+.menuNav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.hamburgerBar{
+    visibility: hidden;
+    width: 0%;
+}
+
+.dropdownMenu{
+    position: absolute;
+    top: 0;
+    right: -100%;
+    display: flex;
+    visibility: hidden;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+
+.dropdownMenu.active{
+    visibility: visible;
+    right: 0;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+
+.leftEmpty{
+    width: 35%;
+    height: 100vh;
+    transition-delay: 1s;
+}
+
+.rightDropdown{
+    width: 65%;
+    background-color: #AC4B1C;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* transition: all 0.25s;
+    -webkit-transition: all 0.25s; */
+}
+
+.exitButton{
+    font-size: 2em;
+    width: 30%;
+    margin-left: auto;
+    margin-top: 10%;
+}
+
+.rightDropdown ul{
+    margin-top: 20%;
+}
+
+.rightDropdown ul li{
+    list-style-type: none;
+    height: fit-content;
+    padding: 7% 0% 7% 0%;
+    border-top: 0.5px solid white;
+}
+
+.lastChild{
+    border-bottom: 1px solid white;
+}
+
+.rightDropdown ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.3em;
+    padding: 7% 25%;
+}
+
+@media screen and (max-width: 1100px) {
+    .menuNav{
+        visibility: hidden;
+    }
+
+    .titleNav h1{
+        font-size: 2em;
+        color: white;
+    }
+
+    .hamburgerBar{
+        visibility: visible;
+        width: 30%;
+        font-size: 2em;
+    }
+    .navBar{
+        padding: 3% 0%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .titleNav h1{
+        font-size: 1.3em;
+        color: white;
+    }
+
+    .hamburgerBar{
+        font-size: 1.3em;
+    }
+    .navBar{
+        padding: 5% 0%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .titleNav h1{
+        font-size: 1em;
+    }
+
+    .hamburgerBar{
+        font-size: 1em;
+    }
+    .navBar{
+        padding: 6% 0%;
+    }
+}
+
+

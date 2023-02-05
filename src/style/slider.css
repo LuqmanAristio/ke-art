@@ -1,0 +1,160 @@
+.container{
+  width: 70%;
+  margin: 4% auto;
+}
+
+.imageSlider{
+  display: flex;
+  flex-direction: column;
+}
+
+.boxTitle{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.titleSlide{
+  width: 80%;
+  /* background-color: red; */
+}
+
+.titleSlide p{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 6%;
+  font-size: 1vw;
+  color: white;
+}
+
+.locationPlace{
+  display: flex;
+  margin-top: 3%;
+  margin-left: 10%;
+  width: 100%;
+}
+
+.locationPlace h3{
+  font-size: 2vw;
+  margin-left: 3%;
+  color: white;
+}
+
+.iconPlace{
+  width: fit-content;
+  font-size: 2vw;
+  color: white;
+}
+
+.linkSlide{
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.linkSlide h3{
+  text-align: center;
+}
+
+.linkSlide a{
+  text-decoration: none;
+  color: white;
+  background-color: #B05B3B;
+  padding: 3% 13%;
+  font-size: 1.2vw;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  color: white !important;  
+}
+
+@media screen and (max-width: 900px) {
+
+  .container{
+    width: 90%;
+    margin-top: 7%;
+  }
+
+  .iconPlace{
+    font-size: 4vw;
+  }
+
+  .locationPlace h3{
+    font-size: 3.5vw;
+  }
+
+  .titleSlide p{
+    width: 80%;
+    font-size: 1.8vw;
+  }
+
+  .linkSlide a{
+    padding: 3% 17%;
+    font-size: 1.7vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .container{
+    width: 90%;
+  }
+
+  .iconPlace{
+    font-size: 4vw;
+  }
+
+  .locationPlace h3{
+    font-size: 3.5vw;
+  }
+
+  .titleSlide p{
+    width: 95%;
+    font-size: 1.8vw;
+  }
+
+  .linkSlide a{
+    padding: 3% 15%;
+    font-size: 3vw;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  
+  .locationPlace h3{
+    font-size: 3.5vw;
+  }
+  
+  .iconPlace{
+    font-size: 4vw;
+  }
+
+  .titleSlide p{
+    visibility: hidden;
+    font-size: 0;
+    margin: 0;
+  }
+
+  .linkSlide{
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+
+  .linkSlide h3{
+    text-align: center;
+  }
+
+  .linkSlide a{
+    /* padding: 0%; */
+    font-size: 3vw;
+  }
+
+  .boxTitle{
+    padding: 5% 0%;
+  }
+
+}

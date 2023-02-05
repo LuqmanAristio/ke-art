@@ -1,0 +1,279 @@
+.chooseMenu{
+    margin-top: 7%;
+    width: 100%;
+}
+
+.imageCore{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/valueImage.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 4% 0% 14% 0%;
+}
+
+.imageCore h1{
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+
+.imageCore p{
+    text-align: center;
+    font-size: 1.3vw;
+    color: white;
+    margin-top: 1%;
+}
+
+.boxBest{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.box{
+    width: 30%;
+    margin-top: -13%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imageBox{
+    width: 100%;
+}
+
+.circleIcon{
+    width: 33%;
+    margin: 0 auto;
+    background-color: #B05B3B;
+    padding: 10% 5%;
+    border-radius: 50%;
+    margin-top: 12%;
+    margin-bottom: 10%;
+}
+
+.boxIcon{
+    font-size: 5vw;
+    color: #B05B3B;
+    color: white;
+}
+
+.imageBox img{
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+}
+
+.titleBox{
+    width: 100%;
+}
+
+.titleContent{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titleContent h3{
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.titleContent p{
+    color: #727272;
+    text-align: center;
+    font-size: 1vw;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.titleContent h4{
+    margin-top: 13%;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.titleContent a{
+    border: 3px solid #B05B3B;
+    color: #B05B3B;
+    background-color: white;
+    padding: 3% 20%;
+    font-size: 1vw;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.titleContent a:hover{
+    background-color: #7E2E10;
+    border: 3px solid #7E2E10;
+    color: white;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .chooseMenu{
+        margin-top: 10%;
+    }
+
+    .titleContent h3{
+        font-size: 1.8vw;
+    }
+    
+    .titleContent p{
+        font-size: 1.5vw;
+    }
+
+    .titleContent a{
+        border: 2px solid #B05B3B;
+        font-size: 1.5vw;
+    }
+
+    .titleContent a:hover{
+        border: 2px solid #7E2E10;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .chooseMenu{
+        margin-top: 15%;
+    }
+
+    .imageCore{
+        padding: 8% 0% 18% 0%;
+    }
+    
+    .imageCore h1{
+        font-size: 2.5em;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .imageCore p{
+        font-size: 1em;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 3%;
+    }
+
+    .boxBest{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box~.box{
+        margin-top: 5%;
+    }
+
+    .box{
+        width: 90%;
+    }
+
+    .titleContent h3{
+        font-size: 2.3em;
+    }
+    
+    .titleContent p{
+        font-size: 1.3em;
+    }
+    
+    .titleContent a{
+        border: 2px solid #B05B3B;
+        padding: 3% 20%;
+        font-size: 1.5em;
+    }
+    
+    .titleContent a:hover{
+        border: 2px solid #7E2E10;
+    }
+    
+    .boxIcon{
+        font-size: 17vw;
+        color: #B05B3B;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .imageCore{
+        padding: 8% 0% 20% 0%;
+    }
+    
+    .imageCore h1{
+        font-size: 2.3em;
+    }
+    
+    .imageCore p{
+        font-size: 0.8em;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .imageBox{
+        width: 100%;
+    }
+    
+    .boxIcon{
+        font-size: 17vw;
+    }
+
+    .titleContent h3{
+        font-size: 2em;
+    }
+    
+    .titleContent p{
+        font-size: 1.2em;
+    }
+    
+    .titleContent a{
+        border: 2px solid #B05B3B;
+        padding: 3% 20%;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .box{
+        width: 100%;
+    }
+    .chooseMenu{
+        margin-top: 20%;
+    }
+
+    .titleContent a{
+        border: 2px solid #B05B3B;
+        padding: 3% 20%;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .box{
+        width: 100%;
+    }
+
+    .titleContent h3{
+        font-size: 1.7em;
+    }
+    
+    .titleContent p{
+        font-size: 1em;
+    }
+    
+    .titleContent a{
+        font-size: 1em;
+    }
+}
