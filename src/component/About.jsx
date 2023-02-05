@@ -15,7 +15,7 @@ export const About = () =>{
 
                     <p>Joglo is a traditional Javanese house that has existed since ancient times and its preferred by many people today. 
                         Joglo gives us feel of the past which is full of simplicity and serenity. <span>Ke-Art</span> is an experienced company engaged 
-                        in the sale of joglo houses with services throughout the island of Bali</p>
+                        in the sale of joglo houses with services throughout the island of Bali and Nusa Penida</p>
 
                     <h3><Link>SEE OUR GALLERY!</Link></h3>
                 </div>
